@@ -28,7 +28,7 @@ app.get("/contact", (req, res) => {
 
 app.get("/about", (req, res) => {
   console.log(req.url);
-  res.render("index", { message: "hello motherfucker" });
+  res.render("index", { message: "hello motherfuckeiyr" });
 });
 
 const PORT = 3000;
